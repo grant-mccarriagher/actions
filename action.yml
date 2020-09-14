@@ -1,11 +1,14 @@
 name: 'Branch Exists'
 description: 'Check if a branch exists'
 inputs:
-  repo:
+  repository:
     description: 'Repo name'
     required: true
   branch:
     description: 'Branch name'
+    required: true
+  token:
+    description: 'GitHub token'
     required: true
 outputs:
   exists: # id of output
