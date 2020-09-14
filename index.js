@@ -17,7 +17,7 @@ const checkBranch = async function() {
   }
 
   try {
-    const gh = github.getOctokit(myToken);
+    const gh = github.getOctokit(token);
     const branchInfo = await gh.repos.getBranch({
       repo,
       branch,
