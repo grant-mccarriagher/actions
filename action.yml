@@ -1,0 +1,15 @@
+name: 'Branch Exists'
+description: 'Check if a branch exists'
+inputs:
+  repo:
+    description: 'Repo name'
+    required: true
+  branch:
+    description: 'Branch name'
+    required: true
+outputs:
+  exists: # id of output
+    description: 'Whether the branch exists or not (true/false)'
+runs:
+  using: 'node12'
+  main: 'index.js'
