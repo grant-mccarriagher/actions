@@ -14,5 +14,5 @@ outputs:
   exists: # id of output
     description: 'Whether the branch exists or not (true/false)'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'index.js'
